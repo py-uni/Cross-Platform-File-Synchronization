@@ -12,7 +12,7 @@
 
 #define EVENT_SIZE (sizeof(struct inotify_event))
 #define LEN (5 * (EVENT_SIZE + 16))
-#define SERVER_IP "172.20.6.238" // 替换为实际服务器IP
+#define SERVER_IP "127.0.0.1" // 替换为实际服务器IP
 #define SERVER_PORT 8080
 
 int fd, wd, sockfd;
